@@ -1,0 +1,12 @@
+{
+  "n": 1,
+  "gamma": 1.4,
+  "T1": 600,
+  "V1": 0.01,
+  "processes": [
+    { "type": "isothermal", "V2": 0.02 },
+    { "type": "isochoric", "T2": 300 },
+    { "type": "isothermal", "V2": 0.01 },
+    { "type": "isochoric", "T2": 600 }
+  ]
+}
